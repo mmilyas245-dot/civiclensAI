@@ -240,22 +240,8 @@ The AI-generated category, severity, priority, description, and recommendations 
 - Nearby/duplicate matching considers reports within approximately 1 km together with AI judgement; it is not guaranteed.
 - The MVP does not include citizen accounts or automated citizen notifications.
 - Admin access uses a configured administrator login.
-- Do not include real `.env` files, API keys, passwords, tokens, or private user data in the ZIP or public repository.
-- The Gemini API key was previously found exposed in an earlier `.env.example`. Generate a new key, revoke the exposed key, and use only the new key in local/server `.env` files. The `.env.example` must contain placeholders only.
 
-## Hackathon submission checklist
-
-- Include this `README.md`.
-- Include the complete frontend and backend source code.
-- Include `backend/requirements.txt` and `civiclens-frontend/package.json`.
-- Include a safe `.env.example` with placeholder values only.
-- Remove `.venv/`, `node_modules/`, `__pycache__/`, actual `.env` files, and other local secret/configuration files.
-- Do not include backend virtual environments or generated local data unless the organizers specifically request sample data.
-- Keep the ZIP at or below 200 MB.
-- Name the ZIP exactly as required: `[Application_Ref]_[Team_Name].zip`.
-- Record the mandatory 2-minute MVP demo, upload it to YouTube, and submit an accessible video link in the official Google Form.
-- Dataset links and GitHub/GitLab repository URLs are optional according to the competition instructions.
 
 ## Dataset information
 
-The setup notes provided for this version do not identify an external training dataset. If the final submitted project uses an external or custom dataset, provide its direct link in the designated Google Form field.
+The setup notes provided for this version do not identify an external training dataset.
