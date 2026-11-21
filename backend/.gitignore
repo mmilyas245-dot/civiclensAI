@@ -1,0 +1,6 @@
+# Backend-only ignore rules (the repo root .gitignore also covers these)
+.env
+.venv/
+venv/
+__pycache__/
+data/
